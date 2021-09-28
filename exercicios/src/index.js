@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const elemento = <h1>React App</h1>;
+import Primeiro from './componentes/primeiro';
 
 ReactDOM.render(
-  elemento,
+  <Primeiro />,
   document.getElementById('root')
 );
 
