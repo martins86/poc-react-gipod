@@ -1,0 +1,22 @@
+# Portas e Ações
+ports:
+  - port: 4200
+    onOpen: ignore
+  - port: 3000
+    onOpen: ignore
+
+# Tarefas na Inicialização
+#tasks:
+#   - command: >
+
+
+# Github
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: false
