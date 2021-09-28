@@ -21,4 +21,4 @@ Comandos usados neste projeto
 ```
 
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg
-[open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/poc-angular-gitpod
+[open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/ambiente-gitpod-node
