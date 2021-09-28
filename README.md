@@ -18,6 +18,8 @@ git checkout -b nome-nova-branch
 
 ```
 npm i -g create-react-app      //-> Gerador da app em react ( create-react-app@4.0.3 )
+
+create-react-app exercicios    //-> Criando o projeto exercicios
 ```
 
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg
