@@ -6,8 +6,10 @@ ports:
     onOpen: ignore
 
 # Tarefas na Inicialização
-#tasks:
-#   - command: >
+tasks:
+  - command: >
+      npm i -g create-react-app &&
+      echo "Instalando create-react-app global..."
 
 
 # Github
