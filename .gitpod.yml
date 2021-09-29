@@ -11,7 +11,8 @@ tasks:
       echo "Instalando create-react-app global, entrando na pasta e executando package" &&
       npm i -g create-react-app &&
       cd exercicios &&
-      npm i
+      npm i &&
+      npm run start
 
 
 # Github
