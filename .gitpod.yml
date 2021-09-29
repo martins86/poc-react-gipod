@@ -3,11 +3,16 @@ ports:
   - port: 4200
     onOpen: ignore
   - port: 3000
-    onOpen: ignore
+    onOpen: open-browser
 
 # Tarefas na Inicialização
-#tasks:
-#   - command: >
+tasks:
+  - command: >
+      echo "Instalando create-react-app global, entrando na pasta e executando package" &&
+      npm i -g create-react-app &&
+      cd calculadora &&
+      npm i &&
+      npm run start
 
 
 # Github

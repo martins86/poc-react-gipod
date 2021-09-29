@@ -17,7 +17,12 @@ git checkout -b nome-nova-branch
 ## Referencias e Informações
 
 ```
-Comandos usados neste projeto
+npm i -g create-react-app      //-> Gerador da app em react ( create-react-app@4.0.3 )
+
+create-react-app calculadora    //-> Criando o projeto calculadora
+
+cd calculadora                  //-> Acessando o progeto
+npm run start                  //-> Subindo o projeto
 ```
 
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg
