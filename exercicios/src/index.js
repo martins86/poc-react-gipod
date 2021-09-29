@@ -1,30 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// import Primeiro from './componentes/primeiro';
+import Primeiro from "./componentes/primeiro/primeiro";
+import BomDia from "./componentes/com-parametros/bomDia";
+import Mult from "./componentes/dois-em-um/multiplos";
+import Saudacao from "./componentes/acoes-events-on-change/saudacao";
 
-// ReactDOM.render(
-//   <Primeiro />,
-//   document.getElementById('root')
-// );
+const AppRender = [
+  <Primeiro />,
+  <BomDia nome="Thiago" />,
+  <Saudacao tipo="Bom Dia" nome="Ana" />,
+  [<Mult.BoaTarde nome="Thiago" />, <Mult.BoaNoite nome="Martins" />],
+];
 
-// import BomDia from "./componentes/bomDia";
-
-// ReactDOM.render(<BomDia nome="Thiago" />, document.getElementById("root"));
-
-// import Mult from "./componentes/multiplos";
-
-// ReactDOM.render(
-//   <div>
-//     <Mult.BoaTarde nome="Thiago" />
-//     <Mult.BoaNoite nome="Martins" />
-//   </div>,
-//   document.getElementById("root")
-// );
-
-import Saudacao from './componentes/saudacao';
-
-ReactDOM.render(
-    <Saudacao tipo="Bom Dia" nome="Ana" />, 
-    document.getElementById("root")
-);
+ReactDOM.render(AppRender, document.getElementById("root"));
