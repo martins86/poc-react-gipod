@@ -8,8 +8,10 @@ ports:
 # Tarefas na Inicialização
 tasks:
   - command: >
+      echo "Instalando create-react-app global, entrando na pasta e executando package" &&
       npm i -g create-react-app &&
-      echo "Instalando create-react-app global..."
+      cd exercicios &&
+      npm i
 
 
 # Github
