@@ -3,7 +3,7 @@ ports:
   - port: 4200
     onOpen: ignore
   - port: 3000
-    onOpen: ignore
+    onOpen: open-browser
 
 # Tarefas na Inicialização
 tasks:
