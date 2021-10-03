@@ -1,0 +1,13 @@
+{
+  "name": "api-json-server",
+  "version": "0.0.1",
+  "description": "api json-server para crud de usuários",
+  "scripts": {
+    "start:backend": "json-server --watch db.json --port 3001"
+  },
+  "author": "Thiago Martins de Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "0.13.0"
+  }
+}

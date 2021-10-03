@@ -17,7 +17,12 @@ git checkout -b nome-nova-branch
 ## Referencias e Informações
 
 ```
-Comandos usados neste projeto
+mkdir crud-user
+cd crud-user/
+mkdir backend
+cd backend/
+npm init
+npm i --save json-server@0.13.0 -E
 ```
 
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg

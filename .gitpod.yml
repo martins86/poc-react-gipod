@@ -3,11 +3,17 @@ ports:
   - port: 4200
     onOpen: ignore
   - port: 3000
+    onOpen: open-browser
+  - port: 3001
     onOpen: ignore
 
 # Tarefas na Inicialização
-#tasks:
-#   - command: >
+tasks:
+  - command: >
+      echo "Instalando e iniciando json-server" &&
+      cd crud-user/backend &&
+      npm i &&
+      npm run start:backend
 
 
 # Github
