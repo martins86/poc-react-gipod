@@ -1,1 +1,9 @@
-.logo {}
+aside.logo {
+  background-color: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+}
+
+aside.logo img {
+  height: 100%;
+}
