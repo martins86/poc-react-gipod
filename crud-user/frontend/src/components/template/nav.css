@@ -1,2 +1,18 @@
-.menu-area {
+aside.menu-area {
+  background-color: var(--bg-dark);
+  box-shadow: var(--shadow-inset);
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 15px;
+}
+
+.menu a:hover {
+  color: #61dafb;
+  background-color: #152730;
+  box-shadow: var(--shadow-inset);
 }

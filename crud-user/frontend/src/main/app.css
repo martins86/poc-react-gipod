@@ -2,6 +2,7 @@
   --bg-dark: #1a2f3a;
 
   --shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.06);
+  --shadow-inset: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.58);
 
   --logo-height: 100px;
   --header-height: 100px;
