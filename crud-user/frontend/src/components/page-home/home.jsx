@@ -1,6 +1,6 @@
 import React from "react";
 
-import Content from "./../template/content";
+import Content from "../template/content";
 
 const Home = (props) => (
   <Content

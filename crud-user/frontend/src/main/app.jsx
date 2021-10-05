@@ -6,7 +6,7 @@ import "./app.css";
 
 import Logo from "../components/template/logo";
 import Nav from "../components/template/nav";
-import Home from "../components/home-page/home";
+import Home from "../components/page-home/home";
 import Footer from "../components/template/footer";
 
 const App = (props) => (
