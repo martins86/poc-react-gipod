@@ -1,5 +1,7 @@
 import React from "react";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 import "./app.css";
 
 import Logo from "../components/template/logo";
@@ -11,7 +13,11 @@ const App = (props) => (
   <div className="app">
     <Logo />
     <Nav />
-    <Content />
+    <Content
+      icon="home"
+      title="Inicio"
+      subtitle="Projeto Crud de Usuários com React."
+    />
     <Footer />
   </div>
 );
