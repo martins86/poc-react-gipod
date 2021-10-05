@@ -6,18 +6,14 @@ import "./app.css";
 
 import Logo from "../components/template/logo";
 import Nav from "../components/template/nav";
-import Content from "../components/template/content";
+import Home from "../components/home-page/home";
 import Footer from "../components/template/footer";
 
 const App = (props) => (
   <div className="app">
     <Logo />
     <Nav />
-    <Content
-      icon="home"
-      title="Inicio"
-      subtitle="Projeto Crud de Usuários com React."
-    />
+    <Home />
     <Footer />
   </div>
 );
