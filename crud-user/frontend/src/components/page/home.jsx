@@ -8,7 +8,7 @@ const Home = (props) => (
     title="Inicio"
     subtitle="Projeto Crud de Usuários com React."
   >
-    <div className="display-4">Bem Vindo!</div>
+    <h1>Bem Vindo!</h1>
     <hr />
     <p className="mb-0">Sistema de Gestão de Usuários com React.</p>
   </Content>

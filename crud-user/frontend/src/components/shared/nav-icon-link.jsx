@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavIconLink = (props) => (
-  <a href={props.url} title={props.title}>
+  <Link to={props.url} title={props.title}>
     <i className={`fa fa-${props.icon}`}></i> {props.title}
-  </a>
+  </Link>
 );
 
 export default NavIconLink;
