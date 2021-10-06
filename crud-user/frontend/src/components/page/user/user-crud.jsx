@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Content from "../template/content";
+import Content from "../../template/content";
 
 const headerPrps = {
   icon: 'users',
