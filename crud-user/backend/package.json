@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "api json-server para crud de usuários",
   "scripts": {
-    "start:backend": "json-server --watch db.json --port 3001"
+    "start:backend": "node server.js"
   },
   "author": "Thiago Martins de Freitas",
   "license": "ISC",
