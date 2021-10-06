@@ -34,9 +34,69 @@ export default class UserCrud extends Component {
   }
 
   getUpdatedList(user) {
-    const list = this.state.list.filter(u => u.id !== user.id);
+    const list = this.state.list.filter((u) => u.id !== user.id);
     list.unshift(user);
     return list;
+  }
+
+  updateField(event) {
+    const user = { ...this.state.user };
+    user[event.target.name] = event.target.value;
+  }
+
+  renderForm() {
+    return (
+      <div className="form">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <div className="form-group">
+              <label htmlFor="name">Nome</label>
+              <input
+                type="text"
+                className="form-control"
+                name="name"
+                placeholder="Digite o nome..."
+                defaultValue={this.state.user.name}
+                onChange={(e) => this.updateField(e)}
+              />
+            </div>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="form-group">
+              <label htmlFor="email">E-mail</label>
+              <input
+                type="text"
+                className="form-control"
+                name="email"
+                placeholder="Digite o email..."
+                defaultValue={this.state.user.email}
+                onChange={(e) => this.updateField(e)}
+              />
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div className="row">
+          <div className="col-12 d-flex justify-content-end">
+            <button
+              className="btn btn-primary"
+              onClick={(e) => this.saveForm(e)}
+            >
+              Salvar
+            </button>
+
+            <button
+              className="btn btn-secondary ml-2"
+              onClick={(e) => this.clearForm(e)}
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   render() {
@@ -44,6 +104,7 @@ export default class UserCrud extends Component {
       <Content {...headerProps}>
         <h1>Cadastro de Usuário</h1>
         <hr />
+        {this.renderForm()}
       </Content>
     );
   }
