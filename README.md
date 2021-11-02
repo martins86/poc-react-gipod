@@ -1,4 +1,4 @@
-## Ambiente NodeJs para Estudos.
+## Poc React GitPod.
 
 [![Open in Gitpod][open-gitpod-img]][open-gitpod-url]
 
@@ -21,4 +21,4 @@ Comandos usados neste projeto
 ```
 
 [open-gitpod-img]: https://gitpod.io/button/open-in-gitpod.svg
-[open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/ambiente-gitpod-node
+[open-gitpod-url]: https://www.gitpod.io/#https://github.com/martins86/poc-react-gipod
